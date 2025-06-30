@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useRequestsStore } from "@/features/requests/requestsStore";
+import { useRequestsStore } from "@/entities/request/requestsStore";
 import Button from "@/shared/ui/Button.vue";
 import RequestList from "@/widgets/RequestList.vue";
 import { RouterLink } from "vue-router";
