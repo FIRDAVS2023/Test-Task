@@ -3,7 +3,7 @@ import { computed, ref } from "vue";
 import { useRoute, useRouter } from "vue-router";
 // import { useRequestsStore } from "@/features/requests/stores/requestsStore";
 import RequestForm from "@/features/requests/components/RequestForm.vue";
-import { useRequestsStore } from "@/features/requests/requestsStore";
+import { useRequestsStore } from "@/entities/request/requestsStore";
 import Button from "@/shared/ui/Button.vue";
 import Modal from "@/shared/ui/Modal.vue";
 import { formatDate } from "@/shared/utils/formatDate";
