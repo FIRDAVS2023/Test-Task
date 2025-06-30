@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Request } from "@/entities/request/requestTypes";
-import { useRequestsStore } from "@/features/requests/requestsStore";
+import { useRequestsStore } from "@/entities/request/requestsStore";
 import Button from "@/shared/ui/Button.vue";
 import { formatDate } from "@/shared/utils/formatDate";
 import { RouterLink } from "vue-router";
