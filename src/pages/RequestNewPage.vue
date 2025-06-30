@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { RequestFormData } from "@/entities/request/requestTypes";
 import RequestForm from "@/features/requests/components/RequestForm.vue";
-import { useRequestsStore } from "@/features/requests/requestsStore";
+import { useRequestsStore } from "@/entities/request/requestsStore";
 import { useRouter } from "vue-router";
 
 const router = useRouter();
